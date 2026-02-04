@@ -118,12 +118,12 @@ nav a:hover {
   flex-shrink: 0;
 }
 
-/* About header styles */
-#about-header {
+/* Skills header styles */
+#skills-header {
   margin-bottom: 40px;
 }
 
-#about-header h1 {
+#skills-header h1 {
   font-family: 'Playfair Display', serif;
   font-size: 48px;
   font-weight: 700;
@@ -131,7 +131,7 @@ nav a:hover {
   margin: 15px 0;
 }
 
-#about-header p {
+#skills-header p {
   font-size: 16px;
   font-weight: 300;
   color: #7f8c8d;
@@ -140,8 +140,8 @@ nav a:hover {
   line-height: 1.8;
 }
 
-/* About section styles */
-#about {
+/* Skills section styles */
+#skills {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -153,12 +153,12 @@ nav a:hover {
   margin: 0 auto;
 }
 
-.about-content {
+.skills-content {
   text-align: left;
   max-width: 500px;
 }
 
-.about-content h2 {
+.skills-content h2 {
   text-align: left;
   font-size: 28px;
   font-weight: 600;
@@ -166,13 +166,13 @@ nav a:hover {
   margin-bottom: 20px;
 }
 
-.about-content ul {
+.skills-content ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.about-content li {
+.skills-content li {
   font-size: 16px;
   font-weight: 400;
   color: #34495e;
@@ -180,7 +180,7 @@ nav a:hover {
   line-height: 1.8;
 }
 
-.about-content li strong {
+.skills-content li strong {
   font-size: 18px;
   font-weight: 600;
   color: #2c3e50;
@@ -188,7 +188,7 @@ nav a:hover {
   margin-bottom: 5px;
 }
 
-.about-content li p {
+.skills-content li p {
   margin: 0;
   font-size: 15px;
   color: #7f8c8d;
