@@ -110,10 +110,11 @@ nav a:hover {
 }
 
 .home-photo {
-  width: 240px;
-  height: 240px;
-  border-radius: 12px;
+  width: clamp(280px, 40vw, 400px);
+  height: clamp(280px, 40vw, 400px);
+  border-radius: 16px;
   object-fit: cover;
+  object-position: center top;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
   flex-shrink: 0;
 }
