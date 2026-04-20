@@ -225,8 +225,6 @@ nav a:hover {
 }
 
 .project-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 30px;
 }
 
@@ -234,6 +232,7 @@ nav a:hover {
   background: white;
   border-radius: 16px;
   padding: 30px;
+  margin-bottom: 20px;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   text-align: left;
